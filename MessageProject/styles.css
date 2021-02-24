@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right,rgb(50,150,140),purple);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(220,220,220,0.3);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
