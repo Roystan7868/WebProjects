@@ -1,0 +1,36 @@
+body{
+    background-color: #7e57c2;
+}
+
+.container{
+    background-color: #b39ddb;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black inset;
+}
+
+h1{
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 2em;
+    margin: 60px 0 60px 0;
+}
+
+.slider{
+    width: 80%;
+    opacity: 0.3;
+}
+.slider:hover{
+    opacity: 1;
+    cursor: pointer;
+}
