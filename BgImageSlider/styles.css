@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to left,#24c4ff,#f99965);
+}
+.container{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(189,195,199,0.3);
+}
+img,input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 10em;
+    color: whitesmoke;
+}
+#next{
+    left: 600px;
+}
+#prev{
+    left: 100px;
+}
+
+input:hover{
+    background-color: #24c4ff;
+    opacity: 0.3;
+    border-radius: 50%;
+}

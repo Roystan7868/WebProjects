@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter</title>
+    <title>background Image Slider</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Counter</h1>
-        <h2 id="count">0</h2>
-        <input type="button" value="Lower Count" id="dec" onclick="funcDec()">
-        <input type="button" value="Upper Count" id="inc" onclick="funcInc()" >
+        <img src="goku.png" alt="" 
+        srcset="" width="400" height="400" id="image">
+        <input type="button" value=">" id="next" onclick = "nextImg()">
+        <input type="button" value="<" id="prev" onclick="previous()">
     </div>
-
     <script src="app.js"></script>
 </body>
 </html>
