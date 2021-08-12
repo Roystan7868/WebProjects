@@ -1,0 +1,125 @@
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    background: none;
+    outline: none;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 200px;
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+/* Header */
+header{
+    margin: 0;
+    padding: 0;
+}
+.up{
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+.bgimage{
+    background-image: url(images/headerBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin: 0;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 8px;
+    background-color: #f6b0c3;
+    margin: 5px;
+    border-radius: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #f6b0c3;
+    font-size: 1.5em;
+    font-family: cursive;
+    position: relative;
+    left: 20px;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+li{
+    list-style: none;
+}
+.logo{
+    position: relative;
+    left: 15px;
+}
+.burger{
+    position:absolute;
+    top: 2%;
+    left: 90%;
+    /* background-color: red;
+    width: 400px;
+    height: 400px; */
+}
+#disp{
+    display: none;
+}
+
+/* Css of Home */
+
+.home{
+    background-color: rgba(228, 199, 96, 0.3);
+    position:relative;
+    top: -760px;
+    height: 750px;
+}
+.contain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* background-color: red; */
+    width: 650px;
+    height: 150px;
+}
+.g1{
+    position: relative;
+    color: whitesmoke;
+    font-size: 2em;
+    font-family: cursive;
+}
+.grand{
+    color: #f6b0c3;
+    font-size: 2em;
+}
+
+/* About Us */
+
+.about{
+    background-color: red;
+    display: flex;
+}
+.abt{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
+/* Hover properties */
+li a:hover{
+    color: black;
+    transition: 1s;
+}
+.burger:hover{
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: #f6b0c3;
+    transition: 0.5s;
+}

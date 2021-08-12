@@ -1,0 +1,41 @@
+body{
+    background-image: linear-gradient(to right,#1a795c,#aad689);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,380px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box1{
+    height: 50px;
+    background-color: red;
+}
+.box2{
+    height: 50px;
+    background-color: orange;
+}
+.box3{
+    height: 50px;
+    background-color: yellow;
+}
+.box4{
+    height: 50px;
+    background-color: greenyellow;
+}
+.cir{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.cir:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+}
