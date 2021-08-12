@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif");
+    
+    background-size: cover;
+}
+.rocketBody{
+    position: relative;
+    top: 200px;
+    left: 50%;
+}
+.head{
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid red;
+}
+.part1,.part2,.part3{
+    width: 40px;
+    height: 70px;
+    position: relative;
+    left: 5px;
+}
+.part1,.part3{
+    background-color: grey;
+}
+.part2{
+    background-color: darkgray;
+}
+.tail{
+    border-bottom: 40px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    position: relative;
+    left: -25px;
+}
+.circle1{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -220px;
+    left: 15px;
+    border-radius: 50%;
+}
+.fire1,.fire2,.fire3{
+    background-color: rgb(255, 187, 61);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+/* Flames start here */
+.fire{
+    opacity: 1;
+}
+.fire1{
+    top: -20px;
+    left: 5px;
+    box-shadow: 5px -5px 50px red inset;
+}
+.fire2{
+    top: -19px;
+    left: -12px;   
+    box-shadow: -5px -5px 15px red inset;
+}
+.fire3{
+    top: 10px;
+    left: -55px;
+    box-shadow: 5px -5px 15px red inset;
+}
+
+/* Coding for ground */
+.ground{
+    opacity: 1;
+}
+.firstlayer{
+    background-color: #5d4037;
+    width: 200%;
+    height: 150px;
+    position: relative;
+    top: 140px;
+ } 
+.secondlayer{
+    background-color: #3e2723;
+    width: 200%;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    transform: rotate(-3deg);
+} 
+
+input{
+    position: relative;
+    top: -550px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+}
+input:hover{
+    background-color: blue;
+    cursor: pointer;
+}

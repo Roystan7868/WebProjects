@@ -1,0 +1,24 @@
+div{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    animation: move 2s infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    transition: width 2s;
+}
+
+div:hover{
+    width: 300px;
+    background-color: grey;
+}
+@keyframes move{
+    from{top: 0px;
+    transform: rotate(0deg);}
+    to{top: 600px;
+        transform: rotate(40deg);
+        background-color: aqua;}
+}

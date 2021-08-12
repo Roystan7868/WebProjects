@@ -1,0 +1,67 @@
+body{
+    background-color: #dcdcdc;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-shadow: 5px 5px 5px #696969,
+    -5px -5px 5px #e5e5e5;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    color: #808080;
+}
+
+input ,label{
+    margin: 6px;
+    height: 20px;
+}
+
+#uname,#upass,#mail{
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #696969,
+    -5px -5px 5px #e5e5e5;
+}
+#upass{
+    position: relative;
+    left: 5px;
+}
+#mail{
+    position: relative;
+    left: 15px;
+}
+.sub{
+    margin: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    background-color: #dcdcdc;
+    box-shadow: 4px 4px 5px #696969,
+    -4px -4px 5px #e5e5e5;
+    border-radius: 20px;
+    color: #808080;
+}
+.gacha{
+    margin-top: 25px;
+}
+.fa{
+    margin: 0 10px 0 10px;
+    width: 50px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #696969,
+    -5px -5px 5px #e5e5e5;
+}
+
+
